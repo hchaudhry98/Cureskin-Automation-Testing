@@ -9,6 +9,7 @@ class CartPage(Page):
     # locator variables to be initialized here
     CONT_SHOP_BTN = (By.CSS_SELECTOR, ".cart__warnings a[href='/collections/all']")
     CART_BTN = (By.ID, 'cart-icon-bubble')
+    LOGIN_BTN = (By.CSS_SELECTOR, ".cart__login-paragraph a[href='/account/login']")
 
     # functions that usually are needed for the cart page will appear here
     def open_cart(self):
@@ -16,6 +17,9 @@ class CartPage(Page):
 
     def click_continue_shopping(self):
         self.click(*self.CONT_SHOP_BTN)
+
+    def click_login_btn(self):
+        self.click(*self.LOGIN_BTN)
 
     def verify_url_contains(self, query):
         self.verify_url_contains_query(query)
