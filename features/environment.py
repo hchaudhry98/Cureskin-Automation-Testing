@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.chrome.options import Options
 
 from features.app.application import Application
 
@@ -8,9 +9,15 @@ def browser_init(context):
     """
     :param context: Behave context
     """
-    context.driver = webdriver.Chrome()
+
+    # opt = Options()
+    # opt.add_argument("--window-size=1920,1080")
+    # opt.add_argument("--start-maximized")
+    # opt.add_argument("--headless")
+
+    # context.driver = webdriver.Chrome(chrome_options=opt)
     # context.browser = webdriver.Safari()
-    # context.browser = webdriver.Firefox()
+    context.driver = webdriver.Firefox()
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)

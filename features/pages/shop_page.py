@@ -12,6 +12,7 @@ class ShopPage(Page):
 
     # methods will go here
     def click_page_2(self):
+        self.wait_for_element_click(*self.PAGE_2)
         self.click(*self.PAGE_2)
 
     def get_all_products(self):

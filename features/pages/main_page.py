@@ -18,4 +18,5 @@ class MainPage(Page):
         self.verify_element_text(expected, *self.CONTACT_TXT)
 
     def click_shop_all(self):
+        self.wait_for_element_appear(*self.SHOP_ALL_BTN)
         self.click(*self.SHOP_ALL_BTN)

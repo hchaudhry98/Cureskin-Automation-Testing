@@ -1,0 +1,97 @@
+1671575195033	geckodriver	INFO	Listening on 127.0.0.1:51011
+1671575195401	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51012" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofileemJDkZ"
+1671575196353	Marionette	INFO	Marionette enabled
+1671575196427	Marionette	INFO	Listening on port 51024
+Read port: 51024
+WebDriver BiDi listening on ws://127.0.0.1:51012
+1671575197347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofileemJDkZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51012/devtools/browser/4d45137e-8101-40aa-ad7c-b772422185db
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1671575203574	Marionette	INFO	Stopped listening on port 51024
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+1671575210193	geckodriver	INFO	Listening on 127.0.0.1:51112
+1671575210206	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51113" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofilergQioP"
+1671575210823	Marionette	INFO	Marionette enabled
+1671575210872	Marionette	INFO	Listening on port 51118
+Read port: 51118
+WebDriver BiDi listening on ws://127.0.0.1:51113
+1671575211547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofilergQioP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51113/devtools/browser/59fad64a-07e4-4898-af09-cb852119d586
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1671575217540	Marionette	INFO	Stopped listening on port 51118
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+1671575231130	geckodriver	INFO	Listening on 127.0.0.1:51206
+1671575231145	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51207" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofilelSxUfb"
+1671575231764	Marionette	INFO	Marionette enabled
+1671575231810	Marionette	INFO	Listening on port 51212
+Read port: 51212
+WebDriver BiDi listening on ws://127.0.0.1:51207
+1671575232591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofilelSxUfb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51207/devtools/browser/558db8ec-29fa-4719-91d3-0b4d470c751e
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1671575237921	Marionette	INFO	Stopped listening on port 51212
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+1671575246129	geckodriver	INFO	Listening on 127.0.0.1:51312
+1671575246141	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51313" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofile1vYtpZ"
+1671575246757	Marionette	INFO	Marionette enabled
+1671575246808	Marionette	INFO	Listening on port 51318
+Read port: 51318
+WebDriver BiDi listening on ws://127.0.0.1:51313
+1671575247604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofile1vYtpZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51313/devtools/browser/89d4f22a-ba76-49b0-8863-97858e8df8dd
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1671575252870	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1671575253060	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+n.prototype.send@https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js:1:7484
+u/e.prototype.send@https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.183/browser.modern.js:1:3290
+Da@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:40657
+Ta/</<@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:40153
+st/u/</<@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:7860
+st/u/<@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:7965
+o@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:6703
+1671575257301	Marionette	INFO	Stopped listening on port 51318
+1671575448508	geckodriver	INFO	Listening on 127.0.0.1:51744
+1671575449028	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51745" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofileakCdJD"
+1671575449694	Marionette	INFO	Marionette enabled
+1671575449908	Marionette	INFO	Listening on port 51752
+Read port: 51752
+WebDriver BiDi listening on ws://127.0.0.1:51745
+1671575450520	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/tv/mcc54xcx695g1ndbfvnbl2_80000gn/T/rust_mozprofileakCdJD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51745/devtools/browser/4c9bbe19-a02c-4682-935b-4d2ac52b3cb1
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1671575457851	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1671575458205	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+n.prototype.send@https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js:1:7484
+u/e.prototype.send@https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.183/browser.modern.js:1:3290
+Da@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:40657
+Ta/</<@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:40153
+st/u/</<@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:7860
+st/u/<@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:7965
+o@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:6703
+1671575458921	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+n.prototype.send@https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js:1:7484
+u/e.prototype.send@https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.183/browser.modern.js:1:3290
+Da@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:40657
+Ta/</<@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:40153
+st/u/</<@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:7860
+st/u/<@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:7965
+o@https://www.clarity.ms/eus-c/s/0.7.1/clarity.js:2:6703
+1671575459244	Marionette	INFO	Stopped listening on port 51752
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
