@@ -1,5 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
 from features.app.application import Application
@@ -9,7 +11,7 @@ def browser_init(context):
     """
     :param context: Behave context
     """
-
+    # below code is for headless mode
     # opt = Options()
     # opt.add_argument("--window-size=1920,1080")
     # opt.add_argument("--start-maximized")
@@ -17,7 +19,25 @@ def browser_init(context):
 
     # context.driver = webdriver.Chrome(chrome_options=opt)
     # context.browser = webdriver.Safari()
-    context.driver = webdriver.Firefox()
+
+    # for BrowserStack
+    desired_cap = {
+        'bstack:options': {
+            "os": "Windows",
+            "osVersion": "11",
+            "browserVersion": "latest",
+            "projectName": "CureSkin",
+            "buildName": "Build 2022-12-21",
+            "local": "false",
+            "networkLogs": "true",
+            "seleniumVersion": "3.14.0",
+        },
+        "browserName": "Chrome",
+    }
+    bs_user = 'hammadchaudhry_oAslhI'
+    bs_key = 'GCqY6d8c2eYHzRqkWpNA'
+    url = f'https://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
+    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)
