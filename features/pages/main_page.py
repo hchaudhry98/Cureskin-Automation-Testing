@@ -7,8 +7,10 @@ from features.pages.base_page import Page
 
 class MainPage(Page):
     # locator variables will be here
+    HAM_MENU = (By.CSS_SELECTOR, ".icon.icon-hamburger")
     CONTACT_TXT = (By.CSS_SELECTOR, ".footer-block__details-content.rte")
-    SHOP_ALL_BTN = (By.CSS_SELECTOR, "a.header__menu-item.list-menu__item[href='/collections/all']")
+    # SHOP_ALL_BTN = (By.CSS_SELECTOR, "a.header__menu-item.list-menu__item[href='/collections/all']")
+    HAM_SHOP_ALL = (By.CSS_SELECTOR, "a.menu-drawer__menu-item[href='/collections/all']")
 
     # methods for the main page will be here
     def open_main(self):
@@ -18,5 +20,11 @@ class MainPage(Page):
         self.verify_element_text(expected, *self.CONTACT_TXT)
 
     def click_shop_all(self):
-        self.wait_for_element_appear(*self.SHOP_ALL_BTN)
-        self.click(*self.SHOP_ALL_BTN)
+        self.click_ham()
+        self.wait_for_element_appear(*self.HAM_SHOP_ALL)
+        self.click(*self.HAM_SHOP_ALL)
+
+    def click_ham(self):
+        # If Hamburger Menu is visible
+        self.wait_for_element_appear(*self.HAM_MENU)
+        self.click(*self.HAM_MENU)

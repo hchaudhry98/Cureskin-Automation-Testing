@@ -23,16 +23,10 @@ def browser_init(context):
     # for BrowserStack
     desired_cap = {
         'bstack:options': {
-            "os": "Windows",
-            "osVersion": "11",
-            "browserVersion": "latest",
-            "projectName": "CureSkin",
-            "buildName": "Build 2022-12-21",
+            "osVersion": "16",
+            "deviceName": "iPhone 14",
             "local": "false",
-            "networkLogs": "true",
-            "seleniumVersion": "3.14.0",
         },
-        "browserName": "Chrome",
     }
     bs_user = 'hammadchaudhry_oAslhI'
     bs_key = 'GCqY6d8c2eYHzRqkWpNA'
